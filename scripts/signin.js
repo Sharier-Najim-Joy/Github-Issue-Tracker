@@ -7,7 +7,7 @@ document.getElementById("sign-button").addEventListener("click", (e) => {
         alert("Login Successful");
         // window.location.replace("/home.html");
         // window.location.assign("/home.html");
-        window.location.assign("../home.html");
+        window.location.assign("./home.html");
     } else {
         alert("Failed to Login");
     }
